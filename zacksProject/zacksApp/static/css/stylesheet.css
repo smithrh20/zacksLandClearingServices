@@ -1,12 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Josefin Sans;
 }
 
 @media only screen and (max-width: 414px) {
+    #header img{
+        width: 50%;
+    }
     #homeWrapper h1 {
-        font-size: 300%;
+        font-size: 200%;
         font-weight: 100;
     }
     #servicesWrapper h1{
@@ -26,6 +29,14 @@
     }
     .servicesIcon img{
         width: 20%;
+    }
+    #contactButtons button{
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        border-radius: 5px;
+        border-width: 2px;
     }
 }
 
@@ -106,8 +117,8 @@ a{
 }
 
 h1{
-    font-size: 400%;
-    font-weight: 100;
+    font-size: 500%;
+    font-weight: 200;
     color: #ff8000;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.712);
     text-align: center;
@@ -152,7 +163,7 @@ h1{
 
 h2{
     font-size: 250%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Josefin Sans;
     font-weight: 100;
     color: #ff8000;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.712);
@@ -192,7 +203,7 @@ h2{
 
 h3{
     font-size: 300%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Josefin Sans;
     font-weight: 100;
     color: #ff8000;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.712);
@@ -229,7 +240,7 @@ h3{
     flex-direction: column;
     width: 60%;
     height: 60%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Josefin Sans;
     color: #ff8000;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.712);
 }
@@ -255,7 +266,7 @@ h3{
 
 #emailContact h3{
     font-size: 300%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Josefin Sans;
     font-weight: 100;
     color: #ff8000;
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.712);
